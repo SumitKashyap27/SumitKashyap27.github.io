@@ -14,7 +14,15 @@ body{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
+.citywise {
+    border: 2px solid whitesmoke;
+    border-radius: 13px;
+    opacity: 51%;
+    background: black;
+    color: white;
+    padding: 6px;
 
+}
 .container{
     padding: 20px 70px;
     color:#fff;

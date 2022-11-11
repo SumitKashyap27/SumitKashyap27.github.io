@@ -1,4 +1,3 @@
-
 const timeEl = document.getElementById('time');
 const dateEl = document.getElementById('date');
 const currentWeatherItemsEl = document.getElementById('current-weather-items');
@@ -45,7 +44,7 @@ function getWeatherData () {
 }
 
 function showWeatherData (data){
-    let {humidity, pressure, sunrise, sunset, wind_speed} = data.current;
+    let { humidity, pressure, sunrise, sunset, wind_speed} = data.current;
 
     timezone.innerHTML = data.timezone;
     countryEl.innerHTML = data.lat + 'N ' + data.lon+'E'
@@ -70,7 +69,11 @@ function showWeatherData (data){
     <div class="weather-item">
         <div>Sunset</div>
         <div>${window.moment(sunset*1000).format('HH:mm a')}</div>
-    </div>`;
+    </div>
+    
+    
+    `;
+
     let otherDayForcast = ''
     data.daily.forEach((day, idx) => {
         if(idx == 0){
