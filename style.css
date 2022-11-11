@@ -21,7 +21,11 @@ body{
     background: black;
     color: white;
     padding: 6px;
+    text-decoration: none;
 
+}
+.citywise:hover{
+    text-decoration: underline;
 }
 .container{
     padding: 20px 70px;
