@@ -2,13 +2,13 @@ body .Home a{
   background-color: rgb(123, 118, 118);
   color:rgb(7, 7, 7);
   opacity: 80%;
-  padding: 0px 5px 0px 5px;
+  padding: 7px 10px 7px 10px;
   border-radius: 5px;
   text-decoration: none;
   position: absolute;
   top: 10px;
   left: 10px;
-
+  font-size: 20px;
 }
 body {
     display: flex;
@@ -25,6 +25,7 @@ body {
     background: #000000d0;
     color: white;
     padding: 2em;
+    padding-right: 30px;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
@@ -96,6 +97,18 @@ body {
     left: 20px;
   }
 @media screen and  (max-width:600px){
+  body .Home a{
+    background-color: rgb(123, 118, 118);
+    color:rgb(7, 7, 7);
+    opacity: 80%;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+  }
   .card {
     background: #000000d0;
     color: white;
@@ -123,6 +136,18 @@ body {
 
 }  
 @media screen and  (max-width:768px){
+  body .Home a{
+    background-color: rgb(123, 118, 118);
+    color:rgb(7, 7, 7);
+    opacity: 80%;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+  }
   .card {
     background: #000000d0;
     color: white;
@@ -150,13 +175,25 @@ body {
 
 }
 @media screen and  (max-width:992px){
+  body .Home a{
+    background-color: rgb(123, 118, 118);
+    color:rgb(7, 7, 7);
+    opacity: 80%;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+  }
   .card {
     background: #000000d0;
     color: white;
     padding: 2em;
     border-radius: 30px;
     width: 90%;
-    max-width: 320px;
+    max-width: 300px;
     max-height: 400px;
     margin: 1em;
   }
@@ -177,6 +214,18 @@ body {
 
 }
 @media screen and  (min-width:1200px){
+  body .Home a{
+    background-color: rgb(123, 118, 118);
+    color:rgb(7, 7, 7);
+    opacity: 80%;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+  }
   .card {
     background: #000000d0;
     color: white;
